@@ -8,8 +8,8 @@ namespace LogicalPrograming6
     {
         static void Main(string[] args)
         {
-        
-            Revers.ReverseNumber();
+
+            /*Revers.ReverseNumber();
             Console.Write("Enter the number of distinct coupon numbers: ");
             int N = Convert.ToInt32(Console.ReadLine());
 
@@ -28,8 +28,11 @@ namespace LogicalPrograming6
             string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
                 ts.Hours, ts.Minutes, ts.Seconds,
                 ts.Milliseconds / 10);
-            Console.WriteLine("Elapsed Time: " + elapsedTime);
+            Console.WriteLine("Elapsed Time: " + elapsedTime);*/
 
+            Console.WriteLine("Enter the amount of change required:");
+            int change = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("₹ " + note);
 
 
         }
