@@ -9,7 +9,7 @@ namespace LogicalPrograming6
         static void Main(string[] args)
         {
 
-            /*Revers.ReverseNumber();
+            Revers.ReverseNumber();
             Console.Write("Enter the number of distinct coupon numbers: ");
             int N = Convert.ToInt32(Console.ReadLine());
 
@@ -28,7 +28,7 @@ namespace LogicalPrograming6
             string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
                 ts.Hours, ts.Minutes, ts.Seconds,
                 ts.Milliseconds / 10);
-            Console.WriteLine("Elapsed Time: " + elapsedTime);*/
+            Console.WriteLine("Elapsed Time: " + elapsedTime);
 
             // Console.WriteLine("Enter the amount of change required:");
             // int change = Convert.ToInt32(Console.ReadLine());
@@ -68,7 +68,37 @@ namespace LogicalPrograming6
             // Implement Day of Week logic here
             Console.WriteLine();
 
+            /*Console.WriteLine(">>>\tYou selected Temperature Conversion");
+            Console.WriteLine("Please select Conversion From\n1.\tCelsius to Fahrenheit\n\t\tOR\n2.\tFahrenheit to Celsius");
+            n = Convert.ToInt32(Console.ReadLine()); // N is Choice
+            double temp;
+            switch (n)
+            {
+                case 1:
+                    Console.WriteLine("You have selected\t1.\tCelsius to Fahrenheit\nPlease Enter the Temperature in Celisus:");
+                    temp = Convert.ToDouble(Console.ReadLine()); // N is Choice
+                    Temperature.CtoF(temp);
+                    break;
 
+                case 2:
+                    Console.WriteLine("You have selected\t2.\tFahrenheit to Celsius\nPlease Enter the Temperature in Fahrenheit:");
+                    temp = Convert.ToDouble(Console.ReadLine()); // N is Choice
+                    Temperature.FtoC(temp);
+                    break;
+
+                default:
+                    Console.WriteLine("Please select a Valid Input. 1 or 2");
+                    break;
+            }
+            // Implement Temperature Conversion logic here
+            Console.WriteLine();*/
+
+            Console.WriteLine(">>>\tYou selected Compute Square Root");
+            Console.WriteLine("Enter a non-negative number:");
+            double c = double.Parse(Console.ReadLine());
+            Console.WriteLine("Square root: " + Sq.Sqrt(c));
+            // Implement Compute Square Root logic here
+            Console.WriteLine();
 
         }
     }
